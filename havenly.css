@@ -1,0 +1,2082 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+nav{
+    height: 60px;
+    width: 100%;
+   background-color: transparent;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   background-color: #f3f0eb;
+    z-index: 5;
+
+}
+
+nav>div{
+    height: 38px;
+    
+}
+
+.D1{
+    width: 200px;
+    transform: translateX(90px);
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-evenly;
+}
+.D2{
+    width: 700px;
+    
+}
+.D3{
+    width: 150px;
+    border: 2px solid #e59400;
+    border-radius: 44px;
+    transform: translateX(30px);
+}
+.D4{
+    width: 150px;
+   
+    border-radius: 44px;
+    transform: translateX(-60px);
+    
+    background-color: #e59400;
+}
+
+.D1>h1{
+    font-size: 30px;
+    font-weight: 600px;
+    color: rgb(49, 3, 49);
+
+font-family: 'Roboto Slab', serif;
+}
+
+.D2 li{
+    list-style: none;
+}
+
+.D2 ol>li>a{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+
+.D2 ol>li>a:hover{
+   font-weight: 700;
+
+}
+.D2 ol{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateY(9px);
+}
+
+.D3>a{
+    width: 150px;
+   height: 38px;
+   display: block;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gelasio', serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.D4>a{
+    width: 150px;
+   height: 38px;
+   display: block;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gelasio', serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #362B24;
+}
+
+.D3:hover,.D4:hover{
+    background-color: rgb(36, 36, 59);
+    border: none;
+}
+.D3:hover #L,.D4:hover #G{
+    color: white;
+}
+
+.FP{
+    height: 680px;
+    width: 100%;
+   
+    overflow: hidden;
+}
+
+.FP>section{
+    height: 680px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.FP>section>span{
+    display: block;
+    height: 680px;
+    width: 1200px;
+    animation: move 60s forwards 0s infinite linear;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+
+.FP>section>span>img{
+    display: block;
+   height: 680px;
+   width:1000px;
+   border-left: 4px solid rgb(25, 25, 38);
+
+}
+
+
+@keyframes move {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-500px*18));
+    }
+    
+}
+
+.main1{
+    height: 475px;
+    width: 550px;
+    background-color: #f3f0eb;
+    position: absolute;
+    top: 160px;
+    left: 80px;
+}
+.main1>.S1{
+    clip-path: polygon(51% 23%, 100% 0, 100% 100%, 0 99%, 0 0);
+    display: block;
+    background-color:#e0dfaf;
+    height: 125px;
+    width: 97px;
+    transform: rotate(180deg);
+    position: relative;
+    top: -20px;
+    left: 50px	;
+
+}
+
+.main1>.S1>h1{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    transform: rotate(180deg);
+    position: relative;
+    top: 70px;
+    right: 25px;
+   
+}
+
+.main1>.S1>h2{
+    font-family: Georgia, 'Times New Roman', Times, serif, Times, serif, Helvetica, sans-serif;
+    font-size: 9.5px;
+    font-weight: 600;
+    transform: rotate(180deg);
+   
+   
+   
+    text-align: center;
+    display: block;
+   
+}
+
+.main1>h3{
+    display: block;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: 'Gelasio', serif;
+    margin: 10px;
+    transform: translateX(30px);
+}
+.main1>#S1{
+    height: 50px;
+    width: 200px;
+    border-radius: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gelasio', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #362B24;
+    background-color: #e59400;
+    transform: translate(40px,40px);
+
+}
+.main1>#S1:hover{
+    cursor: pointer;
+    background-color: rgb(36, 36, 59);
+    color: white;
+}
+
+.SP{
+    height: 1380px;
+    width: 100%;
+  
+}
+.SP>section{
+    height: 325px;
+    width: 1250px;
+    
+    margin: 70px;
+    transform: translate(60px,75px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.SP>span{
+    height: 50px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transform: translateY(105px);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.SP aside:nth-child(1){
+    height: 320px;
+    width: 50px;
+ 
+}
+.SP aside:nth-child(2){
+    height: 320px;
+    width: 500px;
+ 
+}
+.SP aside:nth-child(3){
+    height: 320px;
+    width: 490px;
+
+}
+
+.SP aside:nth-child(1)>h1{
+    font-size: 40px;
+    font-weight: 500;
+     font-family: 'Gelasio', serif;
+}
+.SP aside:nth-child(2)>h2{
+    font-size: 33px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.SP aside:nth-child(2)>h3{
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    transform: translateY(60px);
+}
+.SP1 aside:nth-child(3)>img:nth-child(1){
+    height: 327px;
+    width: 235px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.SP1 aside:nth-child(3)>img:nth-child(2){
+    height:160.5px;
+    width: 238px;
+    border-top-right-radius: 20px;
+    transform: translate(1px,-85px);
+}
+.SP1 aside:nth-child(3)>img:nth-child(3){
+    height: 160px;
+    width: 238px;
+border-bottom-right-radius: 20px;
+transform: translate(240px,-162px);
+}
+
+.SP2>aside:nth-child(3)>img{
+    height: 320px;
+    width: 478px;
+    border-radius: 20px;
+}
+
+.SP3 aside:nth-child(3)>img:nth-child(1){
+    height: 327px;
+    width: 237.5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.SP3 aside:nth-child(3)>img:nth-child(2){
+    height: 327px;
+    width: 237.5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   
+}
+
+.TP{
+    height: 830px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #e0dfaf;
+
+}
+.TP>section{
+    height: 750px;
+    width: 90%;
+ 
+    
+}
+.TP>section>h1{
+    display: block;
+    width: 900px;
+    height: 100px;
+    font-size: 45px;
+    font-weight: lighter;
+    transform: translateY(50px);
+    
+font-family: 'Roboto Slab', serif;
+}
+
+.TP>section>span>div:nth-child(2)>img{
+    height:572px ;
+    width: 700px;
+}
+
+.TP>section>span{
+  height: 650px;
+  width: 100%;
+
+  display: block;
+   display: flex;
+  
+    
+}
+.TP>section>span>div:nth-child(1){
+    height:525px ;
+    width: 1000px;
+  
+  position: relative;
+  top: 100px;
+ align-items: center;
+ justify-content: space-evenly;
+  display: flex;
+ 
+}
+
+.TP>section>span>div:nth-child(2){
+    height:572px ;
+    width: 886px;
+ 
+    position: relative;
+    top: 75px;
+    left: 70px;
+    object-fit: cover;
+}
+.TP>section #C1{
+   height: 514px;
+   width: 300px;
+    background-color: white;
+}
+
+.TP>section #C2{
+    position: relative;height: 514px;
+    width: 300px; 
+    background-color: white;
+}
+
+.TP>section #C2>h1,.TP>section #C1>h1{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    transform: translate(30px,30px);
+}
+.TP>section #C2>#COL,.TP>section #C1>#COL{
+    display: block;
+    height: 130px;
+    width: 130px;
+    background-color: #Ed6d4b;
+    transform: translate(170px,-105px);
+    border-bottom-left-radius: 100%;
+    display: flex;
+   text-align: right;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+     font-family: 'Gelasio', serif;
+   
+  
+}
+.TP>section #C2>#COL>h1,.TP>section #C1>#COL>h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+     font-family: 'Gelasio', serif;
+     transform: translate(-20px,0px);
+}
+
+.TP>section #C2>h2,.TP>section #C1>h2{ 
+    font-size: 17px;
+    font-family: 'Gelasio', serif;
+    font-weight: 300;
+    transform: translate(5px,-80px);
+    display: block;
+    margin: 25px;
+}
+
+.TP>section #C2>h3,.TP>section #C1>h3{
+    font-size: 18px;
+    font-family: 'Gelasio', serif;
+    font-weight: 300;
+    transform: translate(5px,-80px);
+    display: block;
+    margin: 25px;
+}
+
+.TP>section #C2>h4,.TP>section #C1>h4{
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    text-decoration: line-through;
+    color: #bbbbbb;
+    transform: translate(30px,-100px);
+}
+
+.TP>section #C2>h5,.TP>section #C1>h5{
+    font-size: 35px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+  
+    color: #Ed6d4b;
+    transform: translate(120px,-148px);
+}
+
+.TP>section #C2>h6,.TP>section #C1>h6{ 
+    font-size: 14px;
+    font-family: 'Gelasio', serif;
+    font-weight: 300;
+    transform: translate(30px,-140px);
+    
+  
+}
+
+.TP>section #C2>aside,.TP>section #C1>aside{
+    height: 48px;
+    width: 233px;
+    border-radius: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Gelasio', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #362B24;
+    background-color: #e59400;
+   transform: translate(32px,-105px);
+
+}
+.TP>section #C2>aside:hover,.TP>section #C1>aside:hover{
+    cursor: pointer;
+    background-color: rgb(36, 36, 59);
+    color: white;
+}
+.TP>section #C1>section{
+    height: 70px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    transform: translateY(-85px);
+    font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  display: none;
+  padding: 13px;
+}
+.TP>section #C1>header{
+    transform: translate(30px,-90px);
+    font-size: small;
+}
+.TP>section #C1>header:hover{
+    cursor: pointer;
+}
+.TP>section #C1>i{
+   position: relative;
+   left: 135px;
+   bottom: 105px;
+    transform: rotate(0deg);
+    transition: all 0.1s linear;
+   
+}
+.TP>section #C1>i:hover{
+    cursor: pointer;
+    
+   
+}
+
+.P4{
+    height: 2000px;
+    width: 100%;
+   
+}
+.P4>div{
+    height: 223px;
+    width: 1200px;
+  
+   transform: translate(160px,80px);
+   position: relative;
+   overflow: hidden;
+  
+}
+.P4>section{
+    height: 223px;
+    width: 1200px;
+  
+   transform: translate(160px,80px);
+  
+}
+
+.P4>div>aside{
+    height: 223px;
+    width: 1200px;
+    position: absolute;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.P4>div>aside>img{
+    height: 223px;
+    width: 1200px;
+   
+}
+.P4>div>aside>h1{
+    height: 223px;
+    width: 1200px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: 38px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.P4>section>span{
+    height: 111px;
+    width: 1200px;
+    display: block;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.P4>section>span:nth-child(2)>h1,.P4>section>span:nth-child(2)>h2{
+    font-size: 16px;
+    display: block;
+    font-weight: 700;
+     font-family: 'Gelasio', serif;
+}
+
+
+.P4>section>span:nth-child(2)>div{
+    height: 2px;
+    width: 1000px;
+    background-color: black;
+}
+
+.P4>section>span:nth-child(2)>h1:hover,.P4>section>span:nth-child(2)>h2:hover{
+    cursor: pointer;
+    color: #e59400;
+}
+
+.P4>section>span:nth-child(1)>div{
+    height: 80px;
+    width: 200px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #e50045;
+    transition: 0.4s;
+}
+.P4>section>span:nth-child(1)>div:hover{
+    color: navy;
+    cursor: pointer;
+}
+
+/*--------------------------------------*/
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1400px;
+  height: 150px;
+
+}
+
+.mySlides{
+  height: 150px;
+  width: 1400px;
+  object-fit: cover;
+  transform: translate(60px,100px);
+ 
+  
+}
+
+.mySlides>h1{
+    height: 150px;
+    width: 1400px;
+    display: block; 
+    background-color:white;
+    transform: translateY(-150px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    
+}
+.mySlides>img{
+  height: 150px;
+  width: 1400px;
+  object-fit: cover;
+}
+.MAIN1{
+  height: 600px;
+  width: 100%;
+
+}
+
+.SPANS{
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  transform: translateY(130px);
+}
+
+#KART>span{
+  height: 2px;
+  width: 1200px;
+  display: block;
+  background-color: black;
+  transform: translateY(-10px);
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    color: rgb(193, 149, 16);
+}
+
+
+#KART{
+  height: 100px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  transform: translate(70px,130px);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 70px;
+  width: 220px;
+  margin: 0 2px;
+ color:gray;
+ display: block;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.active, .dot:hover {
+  color: rgb(171, 30, 17);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*                     */
+.P5{
+    height: 1250px;
+    width: 100%;
+    background-color: #f3f0eb;
+  overflow: hidden;
+}
+
+.P5>h1{
+    display: block;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 22px;
+    transform: translateY(70px);
+    font-weight: 800;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.P5>h2{
+    display: block;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    text-align: center;
+    transform: translateY(110px);
+}
+
+.P5>div{
+    height: 100px;
+    width: 100%;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transform: translateY(140px);
+}
+
+.P5>div>span{
+    display: block;
+    height: 70px;
+    width: 800px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.P5>div>span>h3{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 55px;
+    width: 180px;
+    border-radius: 50px;
+}
+
+.P5>div>span>h3:hover{
+    cursor: pointer;
+}
+
+
+.P5>div>span>#one
+{
+    height: 700px; width: 90%;
+    
+    text-align: center;
+   position: absolute;
+    transform: translateY(410px);
+   
+    display: block;
+}
+
+.P5>div>span>#one>span{
+    height: 70px;
+    width: 90%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.P5>div>span>#one>span>h1{
+    height: 70px;
+    width: auto;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(129, 127, 127);
+    
+}
+.P5>div>span>#one>span>h1:nth-child(1){
+    border-bottom: 4px solid black;
+    color: black;
+}
+
+.P5>div>span>#one>span>h1:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.P5>div>span>#one>div{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+
+    
+}
+
+
+
+.P5>div>span>#one section{
+    height: 760px;
+    width: 100%;
+   
+    position: absolute;
+    
+   
+    
+}
+#SEC1{
+    display: block;
+}
+#SEC2{
+    display: none;
+}
+#SEC3{
+    display: none;
+}
+#SEC4{
+    display: none;
+}
+#SEC5{
+    display: none;
+}
+
+
+
+.P5>div>span>#two
+{
+    height: 700px; width: 90%;
+   
+    text-align: center;
+   position: absolute;
+    transform: translateY(410px);
+    
+    display: none;
+}
+.P5>div>span>#three
+{
+    position: absolute;
+    height: 700px; width: 90%;
+   
+    text-align: center;
+   
+    transform: translateY(410px);
+ 
+    display: none;
+}
+
+/*
+
+
+
+*/
+
+.slide {
+     
+    font-family: Arial, Helvetica, sans-serif;
+   height: 100%;
+   width: 100%;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+ 
+ 
+ 
+  .arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  #arrow-left {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #350000d7 transparent transparent;
+    left: 0;
+    margin-left: 20px;
+  }
+  
+  #arrow-right {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #350000d7;
+    right: 0;
+    margin-right: 20px;
+  }
+
+  /*---------------------------*/
+
+  .SLIDE1 {
+    font-family: Arial, Helvetica, sans-serif;
+   height: 100%;
+   width: 100%;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #SLIDER1 {
+      background-image: url(
+    "https://media.designcafe.com/wp-content/uploads/2022/02/28164049/living-room-makeovers-before-and-after-that-maximises-available-space.jpg");
+  }
+  #SLIDER2 {
+    background-image: url(
+    "https://media.designcafe.com/wp-content/uploads/2022/02/28163954/before-and-after-living-room-ideas-that-maximises-available-space.jpg");
+  }
+ 
+  .ARROW1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  #LA {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #350000d7 transparent transparent;
+    left: 0;
+    margin-left: 20px;
+  }
+  
+  #RA {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #350000d7;
+    right: 0;
+    margin-right: 20px;
+  }
+
+   /*---------------------------*/
+
+   .SLIDE11 {
+    font-family: Arial, Helvetica, sans-serif;
+   height: 100%;
+   width: 100%;
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #SLIDER11 {
+      background-image: url(
+    "https://media.designcafe.com/wp-content/uploads/2022/02/28164010/before-and-after-living-room-ideas-that-upgrades-bare-minimum-to-total-stunner.jpg");
+  }
+  #SLIDER21 {
+    background-image: url(
+    "https://media.designcafe.com/wp-content/uploads/2022/02/28164023/living-room-before-and-after-idea-that-upgrades-bare-minimum-to-total-stunner.jpg");
+  }
+ 
+  .ARROW11 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  #LA11 {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #350000d7 transparent transparent;
+    left: 0;
+    margin-left: 20px;
+  }
+  
+  #RA11 {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #350000d7;
+    right: 0;
+    margin-right: 20px;
+  }
+
+  /*---------------------------*/
+  .SLIDE33 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+     overflow-x: hidden;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+  }
+  
+  #SLIDER33 {
+      background-image: url(
+    "https://media.designcafe.com/wp-content/uploads/2022/02/28164043/living-room-makeovers-before-and-after-for-bland-to-fab-facelift.jpg");
+  }
+  #SLIDER32 {
+    background-image: url(
+    "https://media.designcafe.com/wp-content/uploads/2022/02/28164016/living-room-before-and-after-for-a-bland-to-fab-facelift.jpg");
+  }
+ 
+  .ARROW33 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  #LA33 {
+    border-width: 20px 30px 20px 0;
+    border-color: transparent #350000d7 transparent transparent;
+    left: 0;
+    margin-left: 20px;
+  }
+  
+  #RA33 {
+    border-width: 20px 0 20px 30px;
+    border-color: transparent transparent transparent #350000d7;
+    right: 0;
+    margin-right: 20px;
+  } 
+   /*---------------------------*/ 
+   .SLIDE5 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+     overflow-x: hidden;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    }
+    
+    #SLIDER5 {
+    	background-image: url(
+      "https://media.designcafe.com/wp-content/uploads/2022/02/28164002/before-and-after-living-room-ideas-that-perfectly-optimises-large-space.jpg");
+    }
+    #SLIDER55 {
+      background-image: url(
+      "https://media.designcafe.com/wp-content/uploads/2022/02/28164055/living-room-makeovers-before-and-after-that-perfectly-optimises-a-large-space.jpg");
+    }
+   
+    .ARROW5 {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      margin-top: -35px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+    #LA5 {
+      border-width: 20px 30px 20px 0;
+      border-color: transparent #350000d7 transparent transparent;
+      left: 0;
+      margin-left: 20px;
+    }
+    
+    #RA5 {
+      border-width: 20px 0 20px 30px;
+      border-color: transparent transparent transparent #350000d7;
+      right: 0;
+      margin-right: 20px;
+    }
+
+    /*-----------------------------*/
+
+    .P5>div>span>#two>span{
+        height: 70px;
+        width: 50%;
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      
+    }
+
+    
+.P5>div>span>#two>span>h1{
+    height: 70px;
+    width: auto;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(129, 127, 127);
+    
+}
+.P5>div>span>#two>span>h1:nth-child(1){
+    border-bottom: 4px solid black;
+    color: black;
+}
+
+.P5>div>span>#two>span>h1:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.P5>div>span>#two>div{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+
+    
+}
+
+
+
+.P5>div>span>#two section{
+    height: 760px;
+    width: 100%;
+ 
+    position: absolute;
+    
+   
+    
+}
+#ART1{
+    display: block;
+}
+#ART2{
+    display: none;
+}
+#ART3{
+    display: none;
+}
+
+/*------------*/
+
+
+.P5>div>span>#three>span{
+    height: 70px;
+    width: 40%;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+
+.P5>div>span>#three>span>h1{
+height: 70px;
+width: auto;
+font-size: 18px;
+font-weight: 700;
+font-family: 'Exo 2', sans-serif;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+color: rgb(129, 127, 127);
+
+}
+.P5>div>span>#three>span>h1:nth-child(1){
+border-bottom: 4px solid black;
+color: black;
+}
+
+.P5>div>span>#three>span>h1:hover{
+cursor: pointer;
+color: black;
+}
+
+.P5>div>span>#three>div{
+height: 1px;
+width: 100%;
+background-color: black;
+
+
+}
+
+
+
+.P5>div>span>#three section{
+height: 760px;
+width: 100%;
+
+position: absolute;
+
+
+
+}
+#BSK1{
+display: block;
+}
+#BSK2{
+display: none;
+}
+#BSK3{
+display: none;
+}
+ /*---------------------------*/ 
+ .SLIDE7 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+     overflow-x: hidden;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    }
+    
+    #SLIDER7 {
+    	background-image: url("https://media.architecturaldigest.com/photos/5654e3d6587d37cb3479dd6a/master/w_1920%2Cc_limit/before-after-dining-room-005.jpg");
+      
+    }
+    #SLIDER77 {
+        background-image: url("https://media.architecturaldigest.com/photos/5654e3d6e6e26e7256b1029c/master/w_1920%2Cc_limit/before-after-dining-room-006.jpg");
+    }
+   
+    .ARROW7 {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      margin-top: -35px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+    #LA7 {
+      border-width: 20px 30px 20px 0;
+      border-color: transparent #350000d7 transparent transparent;
+      left: 0;
+      margin-left: 20px;
+    }
+    
+    #RA7 {
+      border-width: 20px 0 20px 30px;
+      border-color: transparent transparent transparent #350000d7;
+      right: 0;
+      margin-right: 20px;
+    }
+
+    /*-----------------------------*/
+
+     /*---------------------------*/ 
+ .SLIDE8 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+     overflow-x: hidden;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    }
+    
+    #SLIDER8 {
+    	background-image: url("https://media.architecturaldigest.com/photos/5654e3d9e6e26e7256b102a8/master/w_1920%2Cc_limit/before-after-dining-room-011.jpg");
+      
+    }
+    #SLIDER88 {
+        background-image: url("https://media.architecturaldigest.com/photos/5654e3da587d37cb3479dd7f/master/w_1920%2Cc_limit/before-after-dining-room-012.jpg");
+    }
+   
+    .ARROW8 {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      margin-top: -35px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+    #LA8 {
+      border-width: 20px 30px 20px 0;
+      border-color: transparent #350000d7 transparent transparent;
+      left: 0;
+      margin-left: 20px;
+    }
+    
+    #RA8 {
+      border-width: 20px 0 20px 30px;
+      border-color: transparent transparent transparent #350000d7;
+      right: 0;
+      margin-right: 20px;
+    }
+
+    /*-----------------------------*/
+      /*---------------------------*/ 
+ .SLIDE9 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+     overflow-x: hidden;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+    }
+    
+    #SLIDER9 {
+    	background-image: url("https://media.architecturaldigest.com/photos/5654e3dc587d37cb3479dd87/master/w_1920%2Cc_limit/before-after-dining-room-015.jpg");
+      
+    }
+    #SLIDER99 {
+        background-image: url("https://media.architecturaldigest.com/photos/5654e3dc587d37cb3479dd8a/master/w_1920%2Cc_limit/before-after-dining-room-016.jpg");
+    }
+   
+    .ARROW9 {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      margin-top: -35px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+    #LA9 {
+      border-width: 20px 30px 20px 0;
+      border-color: transparent #350000d7 transparent transparent;
+      left: 0;
+      margin-left: 20px;
+    }
+    
+    #RA9 {
+      border-width: 20px 0 20px 30px;
+      border-color: transparent transparent transparent #350000d7;
+      right: 0;
+      margin-right: 20px;
+    }
+
+    /*-----------------------------*/
+    .SLIDE70 {
+        font-family: Arial, Helvetica, sans-serif;
+        height: 100%;
+        width: 100%;
+         overflow-x: hidden;
+         background-size: cover;
+         background-position: center;
+         background-repeat: no-repeat;
+        }
+        
+        #SLIDER70 {
+            background-image: url("https://media.designcafe.com/wp-content/uploads/2022/02/28150418/before-a-master-bedroom-makeover-before-and-after-that-rescues-a-mismatched-mishap.jpg");
+          
+        }
+        #SLIDER71 {
+            background-image: url("https://media.designcafe.com/wp-content/uploads/2022/02/28150555/after-a-master-bedroom-makeover-before-and-after-that-rescues-a-mismatched-mishap.jpg");
+        }
+       
+        .ARROW70 {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          margin-top: -35px;
+          width: 0;
+          height: 0;
+          border-style: solid;
+        }
+        #LA70 {
+          border-width: 20px 30px 20px 0;
+          border-color: transparent #350000d7 transparent transparent;
+          left: 0;
+          margin-left: 20px;
+        }
+        
+        #RA70 {
+          border-width: 20px 0 20px 30px;
+          border-color: transparent transparent transparent #350000d7;
+          right: 0;
+          margin-right: 20px;
+        }
+    
+        /*-----------------------------*/
+        .SLIDE80 {
+            font-family: Arial, Helvetica, sans-serif;
+            height: 100%;
+            width: 100%;
+             overflow-x: hidden;
+             background-size: cover;
+             background-position: center;
+             background-repeat: no-repeat;
+            }
+            
+            #SLIDER80 {
+                background-image: url("https://media.designcafe.com/wp-content/uploads/2022/02/28151931/before-a-classy-guest-bedroom-before-and-after-makeover-look.jpg");
+              
+            }
+            #SLIDER81 {
+                background-image: url("https://media.designcafe.com/wp-content/uploads/2022/02/28152054/after-a-classy-guest-bedroom-before-and-after-makeover-look.jpg");
+            }
+           
+            .ARROW80 {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              margin-top: -35px;
+              width: 0;
+              height: 0;
+              border-style: solid;
+            }
+            #LA80 {
+              border-width: 20px 30px 20px 0;
+              border-color: transparent #350000d7 transparent transparent;
+              left: 0;
+              margin-left: 20px;
+            }
+            
+            #RA80 {
+              border-width: 20px 0 20px 30px;
+              border-color: transparent transparent transparent #350000d7;
+              right: 0;
+              margin-right: 20px;
+            }
+        
+            /*-----------------------------*/
+            .SLIDE90 {
+                font-family: Arial, Helvetica, sans-serif;
+                height: 100%;
+                width: 100%;
+                 overflow-x: hidden;
+                 background-size: cover;
+                 background-position: center;
+                 background-repeat: no-repeat;
+                }
+                
+                #SLIDER90 {
+                    background-image: url("https://media.designcafe.com/wp-content/uploads/2022/02/28152456/before-a-master-bedroom-remodel-before-and-after-with-an-oversized-tufted-headboard-1.jpg");
+                  
+                }
+                #SLIDER91 {
+                    background-image: url("https://media.designcafe.com/wp-content/uploads/2022/02/28152720/after-a-master-bedroom-remodel-before-and-after-with-an-oversized-tufted-headboard.jpg");
+                }
+               
+                .ARROW90 {
+                  cursor: pointer;
+                  position: absolute;
+                  top: 50%;
+                  margin-top: -35px;
+                  width: 0;
+                  height: 0;
+                  border-style: solid;
+                }
+                #LA90 {
+                  border-width: 20px 30px 20px 0;
+                  border-color: transparent #350000d7 transparent transparent;
+                  left: 0;
+                  margin-left: 20px;
+                }
+                
+                #RA90 {
+                  border-width: 20px 0 20px 30px;
+                  border-color: transparent transparent transparent #350000d7;
+                  right: 0;
+                  margin-right: 20px;
+                }
+            
+                /*-----------------------------*/
+
+                .KARTHIK{
+                    height: 65px;
+                    width: 200px;
+                    clip-path: polygon(0 0, 76% 0, 93% 52%, 100% 78%, 0 78%, 0% 50%);
+                    background-color: rgb(30, 165, 202);
+                         color: white;
+                        transform: translate();
+
+                         font-size: 40px;
+                         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                         letter-spacing: 4px;
+                }
+
+
+                .rrr{
+                
+                    height: 110px;
+                    width: 100%;
+                    background-color: #f3f0eb;
+                    display: flex;
+                    align-items: start;
+                    justify-content: space-evenly;
+                    }
+
+                #Start{
+                    height: 52px;
+                    width: 185px;
+                    color: rgb(0, 0, 0);
+                    background-color: #e59400;
+                    border-radius: 50px;
+                    font-family: 'Gelasio', serif;
+                    font-size: 20px;
+                    font-weight: 580;
+                    color: #362B24;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+
+              
+
+                 #Start:hover{
+                    cursor: pointer;
+                    background-color: rgb(36, 36, 59);
+                    color: white;
+                }
+
+                .P6{
+                    height: 880px;
+                    width: 100%;
+                    background-color: #304561;
+                }
+
+                .P6>h1{
+                    height: 150px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-family: 'Gelasio', serif;
+                    font-size: 18px;
+                    font-weight: 580;
+                }
+
+                .P6>h2{
+                    height: 10px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-size: 40px;
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: 300;
+                }
+
+                .P6>span{
+                    height: 150px;
+                    width: 100%;
+                    display: flex;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                .P6>span>h3{
+                    height: 52px;
+                    width: 220px;
+                    color: rgb(0, 0, 0);
+                    background-color: #ffffff;
+                    border-radius: 50px;
+                    font-family: 'Gelasio', serif;
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #362B24;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                .P6>span>h3:hover{
+                    cursor: pointer;
+                    background-color: #022047;
+                    color: white;
+                }
+
+                .slider568{
+                    height: 500px;
+                    width: 100%;
+                    position: relative;
+                    display: grid;
+                    place-items: center;
+                  
+                    overflow: hidden;
+                }
+
+                .slide_track{
+                    display: flex;
+                    width: calc(300*18);
+                    animation: moves12 100s linear 0s infinite;
+                    
+                    
+                }
+
+                .slide55{
+                    height: 470px;
+                    width: 400px;
+                    display: flex;
+                    align-items: center;
+                    padding: 30px;
+                 
+                   
+                }
+
+                .slide55>img{
+                    height: 450px;
+                    width: 360px;
+                    padding: 20px;
+                }
+
+                .slide55>span{
+                    height: 450px;
+                    width: 360px;
+                    padding: 20px;
+                    background-color: white;
+                    position: absolute;
+                    border-radius: 8px;
+                    color: black;
+                }
+                .slide55>span>h1{
+                    height: 50px;
+                    width: 100%;
+                    font-size: 16px;
+                    font-family: 'Gelasio', serif;
+                    font-weight: 300;
+                    padding: 20px;
+                }
+                .slide55>span>h2{
+                    height: 50px;
+                    width: 100%;
+                    
+                    padding: 20px;
+                }
+
+                .slide55>span>h3{
+                    height: 65px;
+                    width: 100%;
+                    font-size: 20px;
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: 300;
+                    padding: 20px;
+                }
+
+                .slide55>span>h4{
+                    height: 50px;
+                    width: 100%;
+                    font-size: 13px;
+                    font-family: 'Gelasio', serif;
+                    font-weight: 100;
+                    padding: 20px;
+                }
+
+                 .slide_track:hover{
+                    
+                    animation-play-state: paused;
+                }
+                .slide55>span:hover{
+                    cursor: pointer;
+                    transform: scale(1.07);
+                }
+               
+
+                @keyframes moves12 {
+                    0%{
+                        transform: translateX(0);
+                    }
+
+                    100%{
+                        transform: translateX(calc(-220px*12));
+                    }
+                    
+                }
+
+
+                .Pa7{
+                    height: 400px;
+                    width: 100%;
+                }
+
+                .Pa7>h1{
+                    font-size: 40px;
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: 300;
+                    text-align: center;
+                    height: 150px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                .Pa7>span{
+                    height: 70px;
+                    width: 100%;
+                   
+                    display: block;
+                                   }
+
+                .Pa7>span:nth-child(3){
+                    width: 95%;
+                    transform: translateX(40px);
+                }
+                .Pa7>span:nth-child(4){
+                    width: 87%;
+                    transform: translateX(100px);
+                }
+
+                .Pa7>span>ol{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    text-align: center;
+                }
+                .Pa7>span>ol>li{
+                    
+                    height: 48px;
+                    width: 180px;
+                    background-color: #e9e5df;
+                    border-radius: 32px;
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    font-size: 18px;
+                    font-weight: larger;
+
+                }
+
+                .Pa7>span:nth-child(3)>ol>li{
+                    width: 230px;
+                   
+                }
+
+                .Pa7>span>ol>li:hover{
+                    cursor: pointer;
+                    background-color: #f9debe;
+                }
+
+                .pa8{
+                    height: 640px;
+                    width: 100%;
+                    background-color: #cbdfe9;
+                }
+
+                .pa8>h1{
+                    height: 180px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    font-size: 50px;
+                    font-family: 'Roboto Slab', serif;
+                    font-weight: 300;
+                }
+
+                .pa8>span{
+                    display: block;
+                    height: 400px;
+                    width: 100%;
+                   
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+
+                .pa8>span>div{
+                    height: 300px;
+                    width: 330px;
+                  
+                    object-fit: cover;
+                  
+                    
+                }
+
+                .pa8>span>div>img{
+                    height: 300px;
+                    width: 330px;
+                    object-fit: cover;
+                    position: absolute;
+                  
+                  
+                }
+
+                .pa8>span>div>span{
+                    position: absolute;
+                    height: 300px;
+                    width: 330px;
+                  
+                }
+
+                .pa8>span>div>span:hover{
+                    cursor: pointer;
+                    background-color:  rgba(112, 172, 235, 0.3);
+                }
+.pa9{
+    height: 550px;
+    width: 100%;
+    background-color: #f3f0eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pa9>span{
+    height: 550px;
+    width: 50%;
+   
+}
+
+.pa9>span:nth-child(1)>h1{
+    height: 60px;
+    width: 75%;
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+   transform: translate(55px,35px);
+  
+
+}
+
+.pa9>span:nth-child(1)>h2{
+    height: 100px;
+    width: 65%;
+    font-size: 14.5px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    transform: translate(55px,35px);
+    
+}
+
+.pa9>span:nth-child(1)>div{
+    height: 300px;
+    width: 400px;
+   
+    transform: translate(50px,30px);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  
+    
+}
+
+.pa9>span:nth-child(1)>div>h1{
+ 
+    display: block;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+   height: 250px;
+   width: 600px;
+   animation: moves-up 10s linear infinite ;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   padding: 50px;
+   text-align: center;
+    
+}
+
+@keyframes moves-up {
+    100%{
+        transform: translateX(calc(-220px*4));
+    }
+}
+
+.pa10{
+    height: 170px;
+    width: 100%;
+    background-color: #fac8a9;
+}
+
+.pa10>h1{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: last baseline;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.pa10>h2{
+    height: 50px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    text-align: center;
+    padding: 50px;
+    transform: translateX(20%);
+}
+
+.pa11{
+    height: 420px;
+    width: 100%;
+    background-color: #f3f0eb;
+    display: flex;
+}
+
+.pa11>span{
+width: 262px;
+height: 350px;
+display: block;
+
+position: relative;
+top: 60px;
+}
+.pa11>span:nth-child(3){
+    width: 350px;
+}
+
+.pa11>span:nth-child(4){
+    width: 310px;
+}
+
+.pa11 h1{
+    height: 60px;
+    width: 100%;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #304561;
+    padding: 30px;
+}
+.pa11 ol{
+    padding: 30px;
+}
+.pa11 li{
+    list-style: none;
+    font-size: 18px;
+     font-family: 'Gelasio', serif;
+     font-weight: 100;
+     padding: 8px;
+}
+
+.pa11>span:nth-child(3) ol:nth-child(3){
+    transform: translate(130px,-335px);
+}
+
+.pa11 li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#fitp{
+    height: 70px;
+    width: 100%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#fitp>i:hover{
+    transform: scale(1.1);
+cursor: pointer;
+}
+
+#pagelast{
+    background-color: #f3f0eb;
+    height: 90px;
+    width: 100%;
+   
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+#pagelast>div{
+    font-size: 12px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #beac9e;
+}
+#pagelast>div:nth-child(1){
+    height: 18px;
+    width: 250px;
+
+    margin: 38px;
+}
+#pagelast>div:nth-child(2){
+    height: 18px;
+    width: 680px;
+    
+    margin: 38px;
+}
+
+#pagelast>div:nth-child(2):hover{
+    cursor: pointer;
+}
